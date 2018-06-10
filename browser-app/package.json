@@ -16,7 +16,7 @@
     "@theia/monaco": "latest",
     "@theia/typescript": "latest",
     "@theia/messages": "latest",
-    "theia-yaml-extension": "0.0.0"
+    "@theia/yaml": "0.0.0"
   },
   "devDependencies": {
     "@theia/cli": "latest"
