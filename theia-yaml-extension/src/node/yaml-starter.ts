@@ -1,0 +1,1 @@
+require('yaml-language-server/out/server/src/server.js')
