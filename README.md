@@ -1,5 +1,4 @@
-# Hello World Extension Example
-The example of how to build the Theia-based applications with the theia-yaml-extension.
+# Theia YAML Extension
 
 ## Getting started
 
