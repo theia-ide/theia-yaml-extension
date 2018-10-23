@@ -3,6 +3,7 @@
         "strict": true,
         "experimentalDecorators": true,
         "noUnusedLocals": true,
+        "skipLibCheck": true,
         "emitDecoratorMetadata": true,
         "downlevelIteration": true,
         "module": "commonjs",

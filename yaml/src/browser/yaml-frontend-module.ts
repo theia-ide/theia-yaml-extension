@@ -7,14 +7,18 @@
  *
  * Contributors:
  *   Red Hat, Inc. - initial API and implementation
+ *   TypeFox (typefox.io)
  */
 
 import { ContainerModule } from "inversify";
 import { bindYAMLPreferences } from './yaml-preferences';
 import { LanguageClientContribution } from "@theia/languages/lib/browser";
 import { YAMLClientContribution } from "./yaml-client-contribution";
+import { LanguageGrammarDefinitionContribution } from "@theia/monaco/lib/browser/textmate";
+import { YamlGrammarContribution } from "./yaml-grammar-contribution";
 
 export default new ContainerModule(bind => {
     bindYAMLPreferences(bind);
     bind(LanguageClientContribution).to(YAMLClientContribution).inSingletonScope();
+    bind(LanguageGrammarDefinitionContribution).to(YamlGrammarContribution).inSingletonScope();
 });

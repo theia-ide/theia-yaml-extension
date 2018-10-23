@@ -1,20 +1,26 @@
 {
   "name": "@theia/yaml",
+  "description": "YAML support for the Theia IDE",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "theia-extension"
   ],
-  "version": "0.0.0",
+  "license": "EPL-1.0",
+  "version": "0.0.1",
   "files": [
+    "data",
     "lib",
     "src"
   ],
   "dependencies": {
-    "@theia/core": "latest",
-    "yaml-language-server": "0.0.12"
+    "@theia/core": "next",
+    "yaml-language-server": "^0.1.0"
   },
   "devDependencies": {
-    "rimraf": "latest",
-    "typescript": "latest"
+    "rimraf": "^2.6.2",
+    "typescript": "^2.7.2"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn run build",
