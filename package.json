@@ -5,10 +5,10 @@
         "rebuild:browser": "theia rebuild:browser",
         "rebuild:electron": "theia rebuild:electron",
         "publish:latest": "lerna publish --registry=https://registry.npmjs.org/ --exact --skip-git",
-        "publish:next": "lerna publish --registry=https://registry.npmjs.org/ --exact --canary=next --npm-tag=next --force-publish --skip-git --yes"
+        "publish:next": "lerna publish --registry=https://registry.npmjs.org/ --exact --canary=next --npm-tag=next --skip-git --yes"
     },
     "devDependencies": {
-        "lerna": "3.4.2"
+        "lerna": "2.11.0"
     },
     "workspaces": [
         "yaml",

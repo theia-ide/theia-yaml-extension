@@ -16,7 +16,7 @@
     "@theia/terminal": "next",
     "@theia/typescript": "next",
     "@theia/workspace": "next",
-    "@theia/yaml": "^0.1.0"
+    "@theia/yaml": "0.1.0"
   },
   "devDependencies": {
     "@theia/cli": "next"
