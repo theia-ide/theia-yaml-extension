@@ -1,3 +1,7 @@
+> No longer maintained in favor of https://github.com/redhat-developer/vscode-yaml
+
+---
+
 [![Gitpod - Code Now](https://img.shields.io/badge/Gitpod-code%20now-blue.svg?longCache=true)](https://gitpod.io#https://github.com/theia-ide/theia-yaml-extension)
 [![Build Status](https://travis-ci.org/theia-ide/theia-yaml-extension.svg?branch=master)](https://travis-ci.org/theia-ide/theia-yaml-extension)
 
